@@ -1,0 +1,13 @@
+apply plugin: 'java'
+apply plugin: 'scala'
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    compile 'org.slf4j:slf4j-api:1.7.21'
+    testCompile 'junit:junit:4.12'
+    compile 'org.scala-lang:scala-library:2.11.7'
+    compile group: 'org.scalatest', name: 'scalatest_2.11', version: '2.2.6'
+}
